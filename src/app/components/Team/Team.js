@@ -24,8 +24,8 @@ function Team() {
           temporibus delectus vitae enim corporis doloremque alias eveniet
           libero tempore voluptates.
         </p>
-        {persons.map(person =>(    
-            <div className="persons w-full flex md:flex-col gap-4 py-4 px-6 rounded-xl bg-[#e8f4fd]">
+        {persons.map((person,id) =>(    
+            <div key={id} className="persons w-full flex md:flex-col gap-4 py-4 px-6 rounded-xl bg-[#e8f4fd]">
             <div className="person flex flex-col gap-[2px] items-center">
                 <img src={person.pic} className="md:w-[150px] w-[400px]" alt="" />
                 <h1 className="font-semibold">{person.name}</h1>

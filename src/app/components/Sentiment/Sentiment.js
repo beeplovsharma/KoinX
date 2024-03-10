@@ -7,9 +7,12 @@ const Sentiment = () => {
             <h1 className='text-xl font-semibold'>Sentiment</h1>
 
             <div className='container'>
-                <div className='key-events'></div>
+                <div className='key-events'>
+                    <h1 className='font-semibold'>Key Events</h1>
+                </div>
                 <div className='analyst'>
-                    <img src="analytics.png" alt="" />
+                    <h1 className='font-semibold'>Analyst Estimates</h1>
+                    <img src="analytics.png" className='w-[600px]' alt="" />
                 </div>
             </div>
         </div>
