@@ -29,13 +29,13 @@ function About() {
               src="/about-1.png"
               width={350}
               height={350}
-              className="w-[350px]"
+              // className="w-[350px]"
               alt=""
             />
             <Image
               src="/about-2.png"
               width={350}
-              height={350}
+              height={0}
               className="w-[350px]"
               alt=""
             />
