@@ -9,7 +9,7 @@ function NavBar() {
         <Image
           width={120}
           height={120}
-          src="/static/images/logo.png"
+          src='/static/images/logo.png'
           className="w-[120px]"
           alt=""
         />
