@@ -13,7 +13,7 @@ const Sentiment = () => {
               Key Events <MdInfo color="grey" />
             </h1>
             <div className="w-full">
-              <div className="bg-[#e8f4fd] max-w-[400px] rounded-xl px-2 py-4 flex justify-center items-start gap-2">
+              <div className="bg-[#e8f4fd] w-full rounded-xl px-2 py-4 flex justify-center items-start gap-2">
                 <Image src="/newspaper.png" width={40} height={40} alt="" />
                 <div>
                   <h1 className="font-bold">Lorem ipsum dolor sit amet</h1>
