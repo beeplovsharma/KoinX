@@ -5,6 +5,7 @@ import TrendingCoins from "../TrendingCoins/TrendingCoins";
 import Tokenomics from "../Tokenomics/Tokenomics";
 import Team from "../Team/Team";
 import About from "../About/About";
+import Sentiment from "../Sentiment/Sentiment";
 
 function Hero() {
   return (
@@ -16,6 +17,10 @@ function Hero() {
               <div className="h-[350px] lg:h-[250px]">
                 <PriceChart />
               </div>
+            </div>
+
+            <div>
+              <Sentiment/>
             </div>
 
             <div>
