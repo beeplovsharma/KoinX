@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 function MayLike() {
   const settings = {
@@ -63,7 +64,9 @@ function MayLike() {
               <div key={id} className="h-[300px]">
                 <div className="w-[190px] sm:w-full flex flex-col sm:gap-3 sm:h-full h-[130px] border-[1px] rounded-xl p-3">
                   <div className="heading flex items-center gap-2">
-                    <img
+                    <Image
+                      width={50}
+                      height={50}
                       src={coin.item.small}
                       className="logo rounded-full w-[20px] sm:w-[40px]"
                       alt=""
@@ -86,7 +89,9 @@ function MayLike() {
                     )}
                   </div>
                   <h1 className="price">{coin.item.data.price}</h1>
-                  <img
+                  <Image
+                    width={350}
+                    height={50}
                     src={coin.item.data.sparkline}
                     className="graph sm:w-[350px] h-[50px]"
                     alt=""
@@ -102,7 +107,9 @@ function MayLike() {
               <div key={id} className="h-[300px]">
                 <div className="w-[190px] sm:w-full flex flex-col sm:gap-3 sm:h-full h-[130px] border-[1px] rounded-xl p-3">
                   <div className="heading flex items-center gap-2">
-                    <img
+                    <Image
+                      width={50}
+                      height={50}
                       src={coin.item.small}
                       className="logo rounded-full w-[20px] sm:w-[40px]"
                       alt=""
@@ -125,7 +132,9 @@ function MayLike() {
                     )}
                   </div>
                   <h1 className="price">{coin.item.data.price}</h1>
-                  <img
+                  <Image
+                    width={350}
+                    height={50}
                     src={coin.item.data.sparkline}
                     className="graph sm:w-[350px] h-[50px]"
                     alt=""

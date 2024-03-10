@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Tokenomics = () => {
@@ -7,7 +8,10 @@ const Tokenomics = () => {
         <h1 className="font-semibold text-xl">Tokenomics</h1>
         <div className="flex flex-col gap-4">
           <p className="font-semibold">Initial Distribution</p>
-          <img src="/chart.png" className="w-[300px]" alt="" />
+          <Image
+          width={300}
+          height={300}
+          src="/chart.png" className="w-[300px]" alt="" />
         </div>
         <p className="opacity-60 text-sm pb-[20px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Team() {
@@ -27,7 +28,7 @@ function Team() {
         {persons.map((person,id) =>(    
             <div key={id} className="persons w-full flex md:flex-col gap-4 py-4 px-6 rounded-xl bg-[#e8f4fd]">
             <div className="person flex flex-col gap-[2px] items-center">
-                <img src={person.pic} className="md:w-[150px] w-[400px]" alt="" />
+                <Image width={400} height={400} src={person.pic} className="md:w-[150px] w-[400px]" alt="" />
                 <h1 className="font-semibold">{person.name}</h1>
                 <p className="text-[12px] opacity-60">Designation Here</p>
             </div>

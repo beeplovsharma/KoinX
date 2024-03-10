@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { MdArrowDropUp } from "react-icons/md";
 import { MdArrowDropDown } from "react-icons/md";
@@ -30,7 +31,9 @@ function TrendingCoins() {
                   className="flex items-center justify-between gap-2"
                 >
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
+                      width={30}
+                      height={30}
                       className="w-[30px] rounded-full"
                       src={coin.item.small}
                       alt=""

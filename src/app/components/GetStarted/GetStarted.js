@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 function GetStarted() {
@@ -15,7 +16,7 @@ function GetStarted() {
             you to be more educated and aware of your tax reports.
           </p>
 
-          <img className="w-[200px]" src="/girl.png" alt="" />
+          <Image width={200} height={200} className="w-[200px]" src="/girl.png" alt="" />
 
           <button className="flex gap-2 justify-center items-center py-2 px-6 bg-white rounded-lg font-semibold">
             Get Started for FREE <FaArrowRight />
